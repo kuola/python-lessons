@@ -1,0 +1,27 @@
+{
+  // Name this configuration
+  "name": "Python learning experiences!",
+  // RemoteUser
+  "remoteUser": "codespace",
+  // Use the base codespace image
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.8"
+    }
+  },
+  // Customizations for container
+  "customizations": {
+    // Customizations for VS Code
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "GitHub.copilot"
+      ],
+      // Set *default* container specific settings.json values on container create.
+			"settings": {
+        "workbench.colorTheme": "Visual Studio Dark"
+      }
+    }
+  }
+}
