@@ -1,2 +1,2 @@
-# dotfiles
-Repository for my dotfiles with Python devcontainer
+# python-lessons
+Repository for learning Python
