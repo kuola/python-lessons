@@ -16,8 +16,7 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "GitHub.copilot",
-        "streetsidesoftware.code-spell-checker"
+        "GitHub.copilot"
       ],
       // Set *default* container specific settings.json values on container create.
       "settings": {
